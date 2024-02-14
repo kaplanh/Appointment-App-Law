@@ -1,0 +1,75 @@
+/*? Global Stlye for App */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+
+.header h1{
+ 
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+}
+.header h5{
+ 
+  font-family: 'Satisfy', cursive;
+  
+}
+h3{
+  font-family: 'Baskervville', serif;
+  font-weight: bold;
+  
+}
+
+.lawer-img {
+  transition: transform 0.5s;
+  border-radius: 1rem;
+  max-height: 200px;
+}
+.lawer-img:hover {
+  transform: scale(1.05);
+  border: 2px solid blue;
+  cursor: pointer;
+}
+
+.appointments {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 275px;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: start;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  position: relative;
+  box-shadow: 0px 3px 3px rgba(0 0, 0, 0.3);
+  
+}
+.icon{
+transition: all .4s;
+}
+.icon:hover{
+ 
+ transform: scale(1.2);
+}
+
+.consulted {
+  border-left: 1rem solid rgb(61, 189, 18);
+}
+.consulted::after {
+ content:" COMPLETED!"; 
+  background-color: rgb(61, 189, 18);
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-size: 2rem;
+  border-radius: 1rem;
+  rotate: ;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 0.5rem;
+  transform: translate(-50%, -50%);
+}
