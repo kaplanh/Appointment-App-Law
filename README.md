@@ -1,8 +1,6 @@
-# Appointment App
+# Appointment App_Law
 
-[:point_right: Click here to see on browser](https://appointment-app-v1.netlify.app/)
 
-![appointment](https://github.com/kaplanh/Appointment_app/assets/101884444/63923413-ba65-4e73-a9b5-0ab6a696bcab)
 
 ---
 
