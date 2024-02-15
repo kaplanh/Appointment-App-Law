@@ -2,9 +2,9 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
-import InputGroup from "react-bootstrap/InputGroup";
+// import InputGroup from "react-bootstrap/InputGroup";
 import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+// import Row from "react-bootstrap/Row";
 
 function AddModal({show,handleClose,lwName,appointmentData, setAppointmentData }) {
     // const [show, setShow] = useState(false);
