@@ -2,6 +2,7 @@
 
 [:point_right: Click here to see on browser](https://appointment-app-law.vercel.app/)
 
+![appointment-lawyer](https://github.com/kaplanh/Appointment-App-Law/assets/101884444/c2d88761-f213-41d9-afe3-0c6ac6403fac)
 ---
 
 | **What's used in this app ?**                                                           | **How use third party libraries**          | **Author**                                                                       |
@@ -88,11 +89,12 @@ OR
 |
 |----public (folder)
 │     └── index.html
+│     └── img (folder)
 |----src (folder)
 |    |--- components (folder)
-│    │       ├── AddModal.jsx
 │    │       ├── AppointmentList.jsx
-│    │       ├── Doctors.jsx
+│    │       ├── Lawyers.jsx
+│    │       ├── Modal.jsx
 │    │
 |    |--- helpers (folder)
 |    |       |── data.js
